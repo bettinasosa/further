@@ -3,16 +3,17 @@ import {approvalLimits, Customer} from "@/app/refunds/types";
 import {parseDateTime} from "@/app/refunds/helpers";
 
 export function isNewTOS(signUpDate: string, location: string): boolean {
-  const format = location.startsWith('US') ? 'US' : 'EU';
-  const timezone = location.slice(location.indexOf('(') + 1, -1);
-  const cutoffDate = DateTime.fromObject(
-    { year: 2020, month: 1, day: 2 },
-    { zone: 'UTC' }
-  );
-  const parsedSignUpDate = parseDateTime(signUpDate, '00:00', timezone, format);
-  return parsedSignUpDate > cutoffDate;
-}
+  const isUS = location.startsWith('US');
+  const [part1, part2, year] = signUpDate.split('/').map(Number);
 
+  const month = isUS ? part1 : part2;
+  const day = isUS ? part2 : part1;
+
+  const parsedSignUpDate = DateTime.utc(year, month, day);
+  const cutoffDate = DateTime.utc(2020, 1, 2); // January 2, 2020 in UTC
+
+  return parsedSignUpDate >= cutoffDate;
+}
 export function getBusinessHourRequestTime(
   requestDateTime: DateTime
 ): DateTime {
@@ -37,7 +38,7 @@ export function getBusinessHourRequestTime(
     });
   } else if (
     requestDateTime.hour >= businessEnd ||
-    (requestDateTime.hour === businessEnd - 1 && requestDateTime.minute > 0)
+    (requestDateTime.hour === businessEnd && requestDateTime.minute > 0)
   ) {
     // After 5pm, set to 9am next day (or Monday if it's Friday)
     const daysToAdd = requestDateTime.weekday === 5 ? 3 : 1;
@@ -46,6 +47,7 @@ export function getBusinessHourRequestTime(
       .set({ hour: businessStart, minute: 0, second: 0, millisecond: 0 });
   }
 
+  console.log('here', requestDateTime)
   // Within business hours, return as is
   return requestDateTime;
 }
