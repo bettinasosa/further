@@ -7,12 +7,6 @@
     <list default="true" id="f3f60dc0-a3de-4f8e-9007-ac7906798926" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/refunds/approvalCheckers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/approvalCheckers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/refunds/helpers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/helpers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/refunds/refundApproval.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/refundApproval.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/refunds/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/refund.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/refund.test.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
