@@ -1,6 +1,6 @@
 import { DateTime } from 'luxon';
-import {approvalLimits, Customer} from "@/app/refunds/types";
-import {parseDateTime} from "@/app/refunds/helpers";
+import {approvalLimits, Customer} from "@/components/types";
+import {parseDateTime} from "@/utils/helpers";
 
 export function isNewTOS(signUpDate: string, location: string): boolean {
   const isUS = location.startsWith('US');
@@ -47,7 +47,6 @@ export function getBusinessHourRequestTime(
       .set({ hour: businessStart, minute: 0, second: 0, millisecond: 0 });
   }
 
-  console.log('here', requestDateTime)
   // Within business hours, return as is
   return requestDateTime;
 }

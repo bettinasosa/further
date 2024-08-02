@@ -7,8 +7,8 @@ import {
   getCoreRowModel,
   useReactTable
 } from '@tanstack/react-table';
-import {Customer} from "@/app/refunds/types";
-import {isRefundApproved} from "@/app/refunds/approvalCheckers";
+import {Customer} from "@/components/types";
+import {isRefundApproved} from "@/utils/approvalCheckers";
 
 const columnHelper = createColumnHelper<Customer>();
 

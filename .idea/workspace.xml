@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3f60dc0-a3de-4f8e-9007-ac7906798926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/jest.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/refunds/approvalCheckers.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/refunds/helpers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/refunds/refundApproval.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/refunds/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/refund.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/refunds/approvalCheckers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/approvalCheckers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/refunds/helpers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/helpers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/refunds/refundApproval.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/refundApproval.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/refunds/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/refund.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/refund.test.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,38 +22,40 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2k6cNPS1YZvunmMXqZ91JobpzLF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Jest.Refund Approval System.isNewTOS.should correctly identify new TOS for European customers.executor": "Run",
-    "Jest.Refund Approval System.isRefundApproved.executor": "Run",
-    "Jest.refund.test.ts.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/bettinasosa/further-test/src/tests",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "/Users/bettinasosa/further-test/node_modules/jest",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Users/bettinasosa/further-test/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Jest.Refund Approval System.isNewTOS.should correctly identify new TOS for European customers.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.Refund Approval System.isRefundApproved.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.refund.test.ts.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bettinasosa/further-test/src/tests&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;/Users/bettinasosa/further-test/node_modules/jest&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/bettinasosa/further-test/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/tests" />
       <recent name="$PROJECT_DIR$/src/app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/utils" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/app/refunds" />
     </key>

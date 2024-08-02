@@ -1,6 +1,6 @@
 import React from 'react';
-import {Customer} from "@/app/refunds/types";
-import RefundApprovalComponent from "@/app/refunds/refundApproval";
+import {Customer} from "@/components/types";
+import RefundApprovalComponent from "@/components/refundApproval";
 
 export default function App() {
   // data examples as taken from the table provided in the task

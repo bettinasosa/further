@@ -1,5 +1,5 @@
 import { DateTime } from 'luxon';
-import {getBusinessHourRequestTime, isNewTOS, isRefundApproved} from "@/app/refunds/approvalCheckers";
+import {getBusinessHourRequestTime, isNewTOS, isRefundApproved} from "@/utils/approvalCheckers";
 
 describe('Refund Approval System', () => {
   describe('getBusinessHourRequestTime', () => {
