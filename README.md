@@ -54,7 +54,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 The choice of to use Luxon for date and time handling in this project is for several reasons:
 
 1. **Immutability**: Luxon's DateTime objects are immutable, which helps prevent bugs related to unexpected date mutations.
-2. **Timezone Handling**: Luxon provides robust support for working with different timezones, which is crucial for our global customer base.
+2. **Timezone Handling**: Luxon provides robust support for working with different timezones, which is crucial for the global customer base.
 3. **Parsing and Formatting**: Luxon offers flexible and powerful methods for parsing and formatting dates, making it easier to work with various date string formats.
 4. **Modern JavaScript**: Luxon is built for modern JavaScript environments and doesn't carry the legacy baggage of older libraries like Moment.js.
 
